@@ -21,6 +21,7 @@ GPIO 핀 → L298N 연결:
 
 import os
 os.environ['GPIOZERO_PIN_FACTORY'] = 'lgpio'   # 라즈베리 파이 5 필수
+#os.environ['GPIOZERO_PIN_FACTORY'] = 'rpigpio'
 
 from gpiozero import Motor
 from pynput import keyboard
